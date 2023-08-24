@@ -6,6 +6,40 @@
     box-sizing: border-box;
 }
 
+/* Header Section */
+#header-container {
+    background-color: #26282D;
+    height: 105px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#header-left > button {
+    font-weight: 500px;
+    background-color: #F8CB1E;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 7px;
+}
+#header-logo {
+    height: 80px;
+    width: 570px;
+}
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-btn {
+    font-weight: bold;
+}
+#header-left {
+    margin-left: 10px;
+}
+#header-right {
+    margin-right: 5px;
+}
+
 /* Form Section */
 #form-container {
     height: 850px;

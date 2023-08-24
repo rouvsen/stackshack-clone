@@ -97,7 +97,61 @@ label {
 
 /* Footer Section */
 #footer-container {
+    height: 170px;
     background-color: #26282D;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+.footer-sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+#footer-h2 {
+    margin-left: 50px;
+    text-align: left;
+    color: #FFF;
+    font-size: 48px;
+}
+.footer-info-emails {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#info-emails-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-sec-2 {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#tiktok-icon {
+    width: 45px;
+}
+#footer-owner-sec {
+    color: #F8CB1E;
+    text-align: right;
+}
+#footer-right-position {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+.footer-icon {
+    width: 30px;
+    height: 33px;
+    margin-right: 7px;
 }

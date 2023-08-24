@@ -1,0 +1,103 @@
+@import url('https://fonts.adobe.com/fonts/antarctican');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Form Section */
+#form-container {
+    height: 850px;
+    background-color: #FDF9E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-div {
+    height: 75vh;
+    width: 120vh;
+    background-color: #F8CB1E;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.form-info-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+#form-gif-1 {
+    width: 270px;
+}
+#form-gif-2 {
+    width: 270px;
+}
+.form-gif-left-section {
+    display: flex;
+    justify-content: center;
+}
+.form-gif-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left-gif-div {
+    margin-top: 50px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+#form-h2-little {
+    font-size: medium;
+}
+#name, #email, #phone, #birthday {
+    margin-top: 3px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.sign-up-btn-div {
+    display: flex;
+    justify-content: center;
+}
+#sign-up-btn {
+    font-weight: bold;
+    width: 140px;
+    padding: 13px 17px;
+    background-color: black;
+    color: #F8CB1E;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+#form-h2-big {
+    font-family: "Antarctican Headline", Sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form-h2-little {
+    text-align: center;
+}
+
+/* Footer Section */
+#footer-container {
+    background-color: #26282D;
+    display: flex;
+    justify-content: space-between;
+}

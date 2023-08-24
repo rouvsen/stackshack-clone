@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>STACK SHACK – The best burgers in Birmingham, wings, milkshakes and more. Something tasty for everyone.</title>
 </head>
 <body>
@@ -11,7 +13,70 @@
         <main></main>
         <section></section>
         <section></section>
-        <footer></footer>
+        <section>
+            <div>Firstly sections</div>
+        </section>
+        <section id="form-container">
+            <div class="form-div">
+                <section class="form-gif-left-section">
+                    <div id="left-gif-div">
+                        <img id="form-gif-1" src="../images/form-gif-1.gif" alt="gif-left">
+                    </div>
+                </section>
+                <section class="form-info-section">
+                    <div id="sign-up-message">
+                        <h2 id="form-h2-big">SIGN UP TO OUR<br>NEWSLETTER</h2>
+                        <h2 id="form-h2-little">DON'T WORRY WE WILL NOT SPAM YOU</h2>
+                    </div>
+                    <div id="sign-up-form">
+                        <form class="form-container" action="">
+                            <div id="label-name">
+                                <label for="name">NAME</label>
+                                <br>
+                                <input id="name" type="text">
+                            </div>
+                            <div id="label-email">
+                                <label for="email">EMAIL</label>
+                                <br>
+                                <input id="email" type="email">
+                            </div>
+                            <div id="label-phone">
+                                <label for="phone">TELEPHONE</label>
+                                <br>
+                                <input id="phone" type="number" placeholder="07">
+                            </div>
+                            <div id="label-birthday">
+                                <label for="birthday">WHEN IS IT YOUR BIRTHDAY?</label>
+                                <br>
+                                <input id="birthday" type="datetime-local">
+                            </div>
+                            <div class="sign-up-btn-div">
+                                <button id="sign-up-btn" type="submit">SIGN ME UP</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <section class="form-gif-right-section">
+                    <div id="right-gif-div">
+                        <img id="form-gif-2" src="../images/form-gif-2.gif" alt="gif-right">
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div id="footer-container">
+                <div>
+                    Left
+                </div>
+                <div>
+                    Right
+                </div>
+            </div>
+        </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        flatpickr("input[type=datetime-local]", {});
+    </script>
 </body>
 </html>
